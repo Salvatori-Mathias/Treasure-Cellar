@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
-  <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+  <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
     <html lang="en">
 
     <head>
@@ -17,7 +17,7 @@
     <body class="text-center" cz-shortcut-listen="true">
       <div class="container">
 
-        <form class="form-signin" method="post" action="login" name = "f">
+        <form class="form-signin" method="post" action="login" name = "login">
 
                   <h4 class="logo">Treasure-Cellar</h4>
                   </br>
@@ -39,8 +39,9 @@
                     <input type="checkbox" id="remember-me" name="remember-me" class="checkbox" />
 
                   </p>
-
+                  <form action ="index">
                   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                  </form>
                   </br>
 
                   <a class="py-2 text-dark text-decoration-none" href="/treasure-cellar/register">New Member ?</a>

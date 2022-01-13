@@ -1,2 +1,4 @@
-package com.TreasureCellar.service.form;public class ProductService {
+package com.TreasureCellar.service.form;
+
+public class ProductService {
 }

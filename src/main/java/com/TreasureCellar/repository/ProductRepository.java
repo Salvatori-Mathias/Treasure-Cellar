@@ -1,2 +1,4 @@
-package com.TreasureCellar.repository;public interface ProductRepository {
+package com.TreasureCellar.repository;
+
+public interface ProductRepository {
 }

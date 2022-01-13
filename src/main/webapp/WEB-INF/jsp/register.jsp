@@ -21,26 +21,19 @@
       <div class="container">
         <main class="form-signin">
           <div id="addUser">
-            <h4 class="logo">Treasure-Cellar</h4>
+            <h4 class="logo">Pay My Budy</h4>
             </br>
             <form:form action="registration" method="post" modelAttribute="registrationForm">
-            <h1 class="h3 mb-3 fw-normal">Register</h1>
 
-            <div class="form-floating">
-                           <form:input path="userName" type="text" class="form-control floatingInput" />
-                           <label for="floatingInput">User Name</label>
-                           </div>
-
-             <div class="form-floating">
-               <form:input path="lastName" type="text" class="form-control floatingInput" />
-               <label for="floatingInput">Last Name</label>
-               </div>
-
+              <h1 class="h3 mb-3 fw-normal">Register</h1>
               <div class="form-floating">
                 <form:input path="firstName" type="text" class="form-control floatingInput" />
                 <label for="floatingInput">First Name</label>
               </div>
-
+              <div class="form-floating">
+                <form:input path="lastName" type="text" class="form-control floatingInput" />
+                <label for="floatingInput">Last Name</label>
+              </div>
               <div class="form-floating">
                 <form:input path="email" type="email" class="form-control floatingInput" />
                 <label for="floatingInput">Email address</label>

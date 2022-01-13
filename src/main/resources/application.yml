@@ -21,7 +21,7 @@ spring:
 
 server:
   servlet:
-    context-path: /Treasure-Cellar
+    context-path: /treasure-cellar
 
 #Log level configuration
 logging:
