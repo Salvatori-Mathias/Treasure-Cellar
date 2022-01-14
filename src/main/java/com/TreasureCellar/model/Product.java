@@ -6,15 +6,7 @@ public class Product {
     private String name;
     private String description;
     private String price;
-    private String seller;
 
-    public Product() {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.seller = seller;
-    }
 
     public String getId() {
         return id;
@@ -48,11 +40,5 @@ public class Product {
         this.price = price;
     }
 
-    public String getSeller() {
-        return seller;
-    }
 
-    public void setSeller(String seller) {
-        this.seller = seller;
-    }
 }

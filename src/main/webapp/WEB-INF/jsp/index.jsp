@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
   <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-    <html lang="en">
-
+    <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
 
   <head>
       <title>index</title>
@@ -48,7 +47,7 @@
           <div class="carousel-caption text-start">
             <h1>Discover</h1>
             <p>The most Selection in the World found by our experts.</p>
-            <p><a class="btn btn-lg btn-outline-primary" href="products.jsp">Find your treasure</a></p>
+            <p><a class="btn btn-lg btn-outline-primary" href="product">Find your treasure</a></p>
           </div>
         </div>
       </div>
