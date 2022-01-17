@@ -1,7 +1,16 @@
 package com.TreasureCellar.model;
 
-public class Product {
+import lombok.Data;
 
+import javax.persistence.*;
+
+@Data
+@Entity
+public class Product {
+    @Id
+
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PRODUCT_SEQ")
+    @SequenceGenerator(name = "PRODUCT_SEQ", sequenceName = "PRODUCT_SEQ")
     private String id;
     private String name;
     private String description;

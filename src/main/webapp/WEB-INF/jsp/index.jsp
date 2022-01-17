@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="carousel-item">
-       <img src="../resources/bg.png">
+       <img src="../resources/static/bg.png">
 
         <div class="container">
           <div class="carousel-caption">
